@@ -27,9 +27,9 @@
       </div>
       <a class="navbar-brand" href="#">Logo 2</a>
     </nav>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-3">
+        <div class="col-3 border">
           <ul class="nav flex-column">
             <div class="accordion" id="accordionExample">
               <div class="card">
@@ -82,60 +82,80 @@
         </div>
         <div class="col-9">
           <div class="row">
-            <div class="col">
-              <div>
-                <h1>Kunden</h1>
+            <div class="col-12">
+              <div class="col">
+                <div class="text-right">
+                  <h4>
+                    Sie haben zurzeit ein kostenloses Mitgliedschaft.<br>
+                    Als Premium erhalten Sie noch mehr Anfragen!
+                  </h4>
+                  <p>
+                    <strong>Jetzt Premium-Mitglied werden!</strong>
+                  </p>
+                </div>
               </div>
-              <div>
-                <h2>Max Mustermann</h2>
-                <p>Current customer</p>
-                <button type="button" class="btn btn-primary">Anfrage ansehen</button>
-              </div>
-            </div>
-            <div class="col">
-              <h4>
-                Sie haben zurzeit ein kostenloses Mitgliedschaft.
-                Als Premium erhalten Sie noch mehr Anfragen!
-              </h4>
-              <p>
-                <strong>Jetzt Premium-Mitglied werden!</strong>
-              </p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <h2>Notifications (1 new)</h2>
-            </div>
-            <div>
-              <h3>New message from Herr Mustermann</h3>
-              <p>
-                15.02.19 - 10:00 „Hello this is a text to ask a question about the service
-                and I also would like to request something extra and change the day
-                where we meet. Thank you very much!...“
-              </p>
-              <a href="#">Mehr sehen und antworten</a>
             </div>
             <div class="row">
-              <div class="col">
-                <div>
-                  <h3>Congratulations! You accepted a new lead from Max Mustermann!</h3>
-                </div>
-                <div>
+              <div class="p-3">
+                <div class="col">
                   <div>
-                   <img src="" alt="Picture">
+                    <h1>Kunden</h1>
                   </div>
-                  <div>
-                    45021 Werdau - Gartenbeleuchtung <br>
-                    Garten-Planung und Garten-Gestaltung <br>
-                    <a href="#">Anfrage ansehen</a>
+                  <div class="row">
+                    <div class="col">
+                      <h2>Max Mustermann</h2>
+                    </div>
+                    <div class="col mt-5">
+                      <p class="blockquote-footer">Current customer</p>
+                    </div>
+                    <div class="col mt-5">
+                      <button type="button" class="btn btn-primary mt-n2">Anfrage ansehen</button>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <div>
+                <h2>Notifications (1 new)</h2>
+              </div>
+              <div class="p-3 border">
+                <h3>New message from Herr Mustermann</h3>
+                <p>
+                  15.02.19 - 10:00 „Hello this is a text to ask a question about the service
+                  and I also would like to request something extra and change the day
+                  where we meet. Thank you very much!...“
+                </p>
+                <a href="#">Mehr sehen und antworten</a>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="p-3 border">
+                    <div>
+                      <h3>Congratulations! You accepted a new lead from Max Mustermann!</h3>
+                    </div>
+                    <div class="row">
+                      <div class="col-2">
+                       <img src="" alt="Picture">
+                      </div>
+                      <div>
+                        45021 Werdau - Gartenbeleuchtung <br>
+                        Garten-Planung und Garten-Gestaltung <br>
+                        <a href="#">Anfrage ansehen</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-4">
               <div class="col">
                 <div>
-                  <h2>Contact information</h2>
+                  <h2>Contact info</h2>
                 </div>
-                <div>
+                <div class="p-3 border">
                   <div>
                     <h3>Name</h3>
                     <p>Max Msutermann</p>
@@ -162,10 +182,15 @@
                 </div>
               </div>
             </div>
+
+          </div>
+          <div class="row">
+            <div class="col offset-md-9">
+              <button type="button" class="btn btn-primary">kontaktieren sie uns</button>
+            </div>
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-primary">kontaktieren sie uns</button>
     </div>
     <nav class="navbar navbar-light bg-dark ">
       <a class="navbar-brand text-light" href="#">Kundenservice: 030 609 882 977</a>
