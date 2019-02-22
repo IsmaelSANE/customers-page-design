@@ -7,6 +7,19 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Removing gutters -->
+    <style>
+         .no-gutters {
+           margin-right: 0;
+           margin-left: 0;
+
+           > .col,
+           > [class*="col-"] {
+             padding-right: 0;
+             padding-left: 0;
+           }
+         }
+       </style>
     <title>Customers page design</title>
   </head>
   <body>
@@ -27,7 +40,7 @@
       <a class="navbar-brand" href="#">Logo 2</a>
     </nav>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row no-gutters">
         <div class="col-3 border">
           <ul class="nav flex-column">
             <div class="accordion" id="accordionExample">
@@ -82,7 +95,7 @@
         <div class="col-9">
           <div class="row">
             <div class="col-12">
-              <div class="col">
+              <div class="col p-3">
                 <div class="text-right">
                   <h4>
                     Sie haben zurzeit ein kostenloses Mitgliedschaft.<br>
@@ -96,7 +109,7 @@
             </div>
             <div class="row">
               <div class="p-3">
-                <div class="col">
+                <div class="col ml-3">
                   <div>
                     <h1>Kunden</h1>
                   </div>
@@ -116,11 +129,11 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-8">
-              <div>
+            <div class="col-7">
+              <div class="ml-3">
                 <h2>Notifications (1 new)</h2>
               </div>
-              <div class="p-3 border">
+              <div class="p-3 border ml-3">
                 <h3>New message from Herr Mustermann</h3>
                 <p>
                   15.02.19 - 10:00 „Hello this is a text to ask a question about the service
@@ -131,7 +144,7 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <div class="p-3 border">
+                  <div class="p-3 border ml-3">
                     <div>
                       <h3>Congratulations! You accepted a new lead from Max Mustermann!</h3>
                     </div>
@@ -149,10 +162,10 @@
                 </div>
             </div>
             </div>
-            <div class="col-4">
+            <div class="col-5">
               <div class="col">
                 <div>
-                  <h2>Contact info</h2>
+                  <h2>Contact information</h2>
                 </div>
                 <div class="p-3 border">
                   <div>
