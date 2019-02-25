@@ -2,9 +2,13 @@
 
 // Horizontal dividers
 @mixin nav-divider {
-  border-left: 1px solid rgba(0,0,0, 0.3);
   padding-left: 1em;
-  height: 4px;
+  > a {
+    color: silver;
+  }
+  &:before {
+    content: "|";
+  }
 }
 
 nav {
