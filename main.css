@@ -6,4 +6,8 @@ nav .navbar-collapse .navbar-nav .vertical-line {
   nav .navbar-collapse .navbar-nav .vertical-line:before {
     content: "|"; }
 
+/* VERTICAL NAV STYLES */
+.container-fluid .row .vertical-nav {
+  background-color: #004f7d; }
+
 /*# sourceMappingURL=main.css.map */
